@@ -2,6 +2,18 @@
 Changelog for package omni_base_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.1 (2024-08-06)
+------------------
+* fix public sim
+* Contributors: antoniobrandi
+
+2.2.0 (2024-08-06)
+------------------
+* Unify quotation marks
+* Unify quotation marks
+* restructure launch file
+* Contributors: Aina, antoniobrandi
+
 2.1.1 (2024-07-19)
 ------------------
 * fix laser frames
