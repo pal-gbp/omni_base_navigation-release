@@ -1,3 +1,30 @@
+## omni_base_navigation (humble) - 2.4.0-1
+
+The packages in the `omni_base_navigation` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --rosdistro humble -y omni_base_navigation` on `Thu, 17 Oct 2024 09:03:13 -0000`
+
+These packages were released:
+- `omni_base_2dnav`
+- `omni_base_laser_sensors`
+- `omni_base_navigation`
+- `omni_base_rgbd_sensors`
+
+Version of package(s) in repository `omni_base_navigation`:
+
+- upstream repository: https://github.com/pal-robotics/omni_base_navigation.git
+- release repository: https://github.com/pal-gbp/omni_base_navigation-release.git
+- rosdistro version: `2.3.0-1`
+- old version: `2.3.0-1`
+- new version: `2.4.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## omni_base_navigation (humble) - 2.3.0-1
 
 The packages in the `omni_base_navigation` repository were released into the `humble` distro by running `/usr/bin/bloom-release --track humble --rosdistro humble -y omni_base_navigation` on `Fri, 13 Sep 2024 09:56:55 -0000`
