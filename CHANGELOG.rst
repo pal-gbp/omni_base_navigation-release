@@ -2,6 +2,54 @@
 Changelog for package omni_base_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.12.1 (2025-02-10)
+-------------------
+
+2.12.0 (2025-02-04)
+-------------------
+* Update omni_base_nav_bringup.launch.py
+* Contributors: antoniobrandi
+
+2.11.0 (2025-01-30)
+-------------------
+
+2.10.0 (2025-01-23)
+-------------------
+
+2.9.0 (2025-01-21)
+------------------
+
+2.8.0 (2025-01-17)
+------------------
+
+2.7.0 (2024-12-02)
+------------------
+* nav deps and specifics
+* Contributors: antoniobrandi
+
+2.6.1 (2024-11-21)
+------------------
+* start rviz with use_public_sim
+* Contributors: antoniobrandi
+
+2.6.0 (2024-11-14)
+------------------
+* disable costmap filters for normal nav
+* register modules
+* add multi-robot support
+* typos
+* restore laser modules
+* moved camera-related variables to rgbd packag
+* remove dependency from pal_nav2_bringup
+* use mppi
+* register nav variables and pipelines
+* Contributors: antoniobrandi
+
+2.5.0 (2024-10-23)
+------------------
+* using MPPI
+* Contributors: andreacapodacqua
+
 2.4.0 (2024-10-16)
 ------------------
 * Apply 1 suggestion(s) to 1 file(s)
