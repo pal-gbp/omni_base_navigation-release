@@ -2,6 +2,53 @@
 Changelog for package omni_base_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.12.1 (2025-02-10)
+-------------------
+* fix hokuyo remappings
+* Contributors: andreacapodacqua
+
+2.12.0 (2025-02-04)
+-------------------
+
+2.11.0 (2025-01-30)
+-------------------
+* uniform serial_number in all laser
+* pass sn down as string
+* using serial_number for sick lasers
+* Contributors: antoniobrandi
+
+2.10.0 (2025-01-23)
+-------------------
+
+2.9.0 (2025-01-21)
+------------------
+* added support to multiple topic remappings
+* Contributors: andreacapodacqua
+
+2.8.0 (2025-01-17)
+------------------
+
+2.7.0 (2024-12-02)
+------------------
+* nav deps and specifics
+* fix dep
+* Contributors: andreacapodacqua, antoniobrandi
+
+2.6.1 (2024-11-21)
+------------------
+
+2.6.0 (2024-11-14)
+------------------
+* register modules
+* add multi-robot support
+* restore laser modules
+* remove dependency from pal_nav2_bringup
+* register nav variables and pipelines
+* Contributors: antoniobrandi
+
+2.5.0 (2024-10-23)
+------------------
+
 2.4.0 (2024-10-16)
 ------------------
 
