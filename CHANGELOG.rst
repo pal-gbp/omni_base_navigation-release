@@ -2,6 +2,19 @@
 Changelog for package omni_base_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.18.0 (2025-06-10)
+-------------------
+
+2.17.0 (2025-06-03)
+-------------------
+* support namespace
+* Contributors: antoniobrandi
+
+2.16.0 (2025-05-14)
+-------------------
+* Added pal_maps exec_depend
+* Contributors: martinaannicelli
+
 2.15.0 (2025-05-07)
 -------------------
 
