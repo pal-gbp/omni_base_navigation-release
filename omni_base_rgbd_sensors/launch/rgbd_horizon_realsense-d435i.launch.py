@@ -46,17 +46,10 @@ def generate_launch_description():
 def declare_actions(
     launch_description: LaunchDescription, launch_args: LaunchArguments
 ):
-    base_camera_node = 'base_rgbd_camera'
-    roof_camera_node = 'roof_rgbd_camera'
-    base_camera_config = get_pal_configuration(
+    camera_node = 'rgbd_camera'
+    camera_config = get_pal_configuration(
         pkg='realsense_camera_cfg',
-        node=base_camera_node,
-        ld=launch_description,
-        cmdline_args=False,
-    )
-    roof_camera_config = get_pal_configuration(
-        pkg='realsense_camera_cfg',
-        node=roof_camera_node,
+        node=camera_node,
         ld=launch_description,
         cmdline_args=False,
     )
@@ -76,24 +69,15 @@ def declare_actions(
     camera_components = LoadComposableNodes(
         target_container='rgbd_container',
         composable_node_descriptions=[
-            # Roof Camera Driver
+            # Camera Driver
             ComposableNode(
                 package='realsense2_camera',
                 plugin='realsense2_camera::RealSenseNodeFactory',
-                name=roof_camera_node,
-                namespace='roof_rgbd_camera',
-                parameters=roof_camera_config["parameters"],
-                remappings=roof_camera_config["remappings"],
-            ),
-            # Base Camera Driver
-            ComposableNode(
-                package='realsense2_camera',
-                plugin='realsense2_camera::RealSenseNodeFactory',
-                name=base_camera_node,
-                namespace='base_rgbd_camera',
-                parameters=base_camera_config["parameters"],
-                remappings=base_camera_config["remappings"],
-            ),
+                name=camera_node,
+                namespace='rgbd_camera',
+                parameters=camera_config["parameters"],
+                remappings=camera_config["remappings"],
+            )
         ],
     )
 
