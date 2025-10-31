@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import os
+
+from ament_index_python import get_package_share_directory
+
 from dataclasses import dataclass
 
 from launch import LaunchDescription
@@ -74,7 +78,7 @@ def declare_actions(
                 package='realsense2_camera',
                 plugin='realsense2_camera::RealSenseNodeFactory',
                 name=camera_node,
-                namespace='rgbd_camera',
+                namespace='',
                 parameters=camera_config["parameters"],
                 remappings=camera_config["remappings"],
             )
@@ -82,3 +86,16 @@ def declare_actions(
     )
 
     launch_description.add_action(camera_components)
+
+    rgbd_analyzer = Node(
+        package='diagnostic_aggregator',
+        executable='add_analyzer',
+        namespace='omni_base_rgbd_sensors',
+        output='screen',
+        emulate_tty=True,
+        parameters=[
+            os.path.join(
+                get_package_share_directory('omni_base_rgbd_sensors'),
+                'config', 'rgbd_analyzers.yaml')],
+    )
+    launch_description.add_action(rgbd_analyzer)
