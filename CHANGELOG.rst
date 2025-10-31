@@ -2,6 +2,14 @@
 Changelog for package omni_base_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.19.1 (2025-10-22)
+-------------------
+
+2.19.0 (2025-07-10)
+-------------------
+* Add diagnostic analyzers
+* Contributors: Noel Jimenez
+
 2.18.0 (2025-06-10)
 -------------------
 
