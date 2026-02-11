@@ -2,6 +2,19 @@
 Changelog for package omni_base_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.22.0 (2026-01-22)
+-------------------
+* added navigation skills
+* Contributors: antoniobrandi
+
+2.21.0 (2025-12-11)
+-------------------
+
+2.20.0 (2025-12-10)
+-------------------
+* Use path drawer
+* Contributors: antoniobrandi
+
 2.19.1 (2025-10-22)
 -------------------
 
