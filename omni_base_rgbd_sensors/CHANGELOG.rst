@@ -2,6 +2,17 @@
 Changelog for package omni_base_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.22.0 (2026-01-22)
+-------------------
+
+2.21.0 (2025-12-11)
+-------------------
+* Point Cloud filter pipeline
+* Contributors: antoniobrandi
+
+2.20.0 (2025-12-10)
+-------------------
+
 2.19.1 (2025-10-22)
 -------------------
 * removed camera namespace from realsense driver
